@@ -1,0 +1,169 @@
+/**
+ * @name Krusty's Theme
+ * @description Krusty's Discord Theme
+ * @author Krusty
+ * @version 1.0.0
+ * @authorId 278605408808206336
+*/
+
+:root {
+    --menu-color: #ce6383;
+    --replace-green: #b91d57;
+    --spotify-color: #b91d57;
+
+    /* Radio Buttons */
+    --control-brand-foreground: var(--menu-color) !important;
+
+    /* Menu Buttons and Trackbars */
+    --brand-experiment: var(--menu-color) !important;
+
+    /* Video/Mp3 BarGrabber */
+    --brand-experiment-560: #cf2d5e !important;
+}
+
+/* change link color in Menu */
+[aria-label="USER_SETTINGS"] {
+    /* Menu Links */
+    --text-link: #f581b1;
+}
+
+/* Discord tag top-left */
+.wordmarkWindows-1v0lYD {
+    color: #e495b6;
+}
+
+/* Discord Home Button */
+.childWrapper-anI2G9 {
+}
+
+/* mute strikethrough */
+.strikethrough-1n4ekb {
+    color: #ff5c98;
+}
+
+/* User Profile "Send Message" */
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: var(--menu-color);
+}
+
+/* User Preview w/ Spotify */
+.headerSpotify-zpWxgT {
+    background-color: var(--spotify-color);
+}
+
+/* Profile when Playing spotify */
+.topSectionSpotify-1lI0-P {
+    background-color: var(--spotify-color);
+}
+
+/* Profile Spotify "Send Message/Friend Request" */
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    color: var(--spotify-color);
+}
+
+/* Add server/explore icon */
+.circleIconButton-1QV--U {
+    color: #c24a6c;
+}
+.circleIconButton-1QV--U.selected-1JjBPm {
+    background-color: var(--menu-color);
+}
+
+/* Spotify Logo in activity feed */
+/* NOT ACTIVE
+.headerIcon-10Jegm g path
+{
+    fill: #ab2c50;
+}
+*/
+
+/* Add Friend Button (Home) */
+/* NOT ACTIVE
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.container-1D34oG > section > div.children-19S4PO > div.tabBar-ZmDY9v.topPill-30KHOu > div:nth-child(5)
+{
+    background-color: var(--replace-green) !important;
+}
+*/
+
+/* Server Settings Button Clicked */
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: var(--replace-green);
+}
+
+/* Folder icon */
+.expandedFolderIconWrapper-Huv7rA svg path {
+    fill: var(--menu-color) !important;
+}
+
+/* Closed Folder Blue Background */
+/* NOT ACTIVE
+.folderIconWrapper-1_bOZe:not([style=""])
+{
+    background-color: rgba(255, 135, 160, 0.4) !important; 
+}
+*/
+
+/* Verified Server icon */
+.verified-1eC5dy {
+    color: var(--replace-green);
+}
+
+/* upload button pressed */
+.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+    background-color: var(--replace-green);
+}
+
+/* ----------------------------------------- */
+/*                 Menu stuff                */
+/* ----------------------------------------- */
+
+/* One Menu Checkbox */
+#app-mount
+    > div.app-1q1i1E
+    > div
+    > div.layers-3iHuyZ.layers-3q14ss
+    > div:nth-child(2)
+    > div
+    > div.contentRegion-3nDuYy
+    > div
+    > div
+    > main
+    > div
+    > div
+    > div.marginTop20-3TxNs6
+    > label
+    > div.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9 {
+    background-color: var(--menu-color) !important;
+    border-color: var(--menu-color) !important;
+}
+
+/* Green Switch Buttons */
+div
+    .control-2BBjec
+    .container-3auIfb:not([style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"]) {
+    background-color: var(--replace-green) !important;
+}
+
+/* Green Switch Button Tick/symbol */
+.slider-TkfMQL:not([style="left: -3px;"]) svg path {
+    fill: var(--replace-green);
+}
+
+/* Better discord Icons */
+.bd-button {
+    background-color: var(--menu-color);
+}
+
+.bd-addon-views .bd-view-button.selected {
+    background-color: var(--menu-color);
+}
+
+/* Switch Button BD */
+.bd-switch-checked .bd-switch-body {
+    background-color: var(--replace-green);
+}
+
+/* Switch Button Tick/symbol */
+.bd-switch-checked .bd-switch-symbol path {
+    fill: var(--replace-green) !important;
+}
